@@ -1,0 +1,247 @@
+/*
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+/*
+ash #626262
+black #000000
+*/
+
+/*common start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*common end*/
+
+
+
+/*header start*/
+header{
+	padding: 40px 0;
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.logo{
+	margin-top: 14px;
+	width: 13%;
+	float: left;
+}
+.logo a{
+	display: block;
+}
+.logo a img{
+	width: 100%;
+} 
+
+.menu{
+	width: 65%;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 0 50px;
+	padding: 5px 5px;
+	display: inline-block;
+	border-bottom: 1px solid transparent;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+/*header end*/
+
+
+
+
+/*banner start*/
+.banner{}
+.banner_img{}
+.banner_img img{
+	width: 100%;
+}
+/*banner end*/
+
+
+
+/*getaway start*/
+.getaway{
+	padding: 80px 0;
+}
+.container2{
+	margin: 0 auto;
+	width: 80%;
+	/*border: 1px solid red;*/
+}
+.getaway_content{}
+.c_light{
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.common_heading{
+	margin: 25px 0 35px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.common_p{
+	margin: 0;
+	line-height: 27px;
+}
+.margin_top_40{
+	margin-top: 40px;
+}
+/*getaway end*/
+
+
+
+
+/*blog start*/
+.blog{
+	padding: 30px 0 50px 0;
+}
+.blog_wrapper{
+	overflow: hidden;
+}
+
+
+.single{
+	margin-top: 50px;
+	width: 47%;
+	/*border: 1px solid red;*/
+	float: left;
+
+}
+.single:nth-child(even){
+	margin-left: 6%;
+}
+.single_img{
+	margin-bottom: 40px;
+	width: 100%;
+}
+
+/*blog end*/
+
+
+/*Newsletter start*/
+.newsletter{
+	background-color: #f0f0f0;
+	padding: 40px 0;
+}
+.container3{
+	margin: 0 auto;
+	width: 50%;	
+	text-align: center !important;
+}
+
+.margin_h2{
+	margin-bottom: 70px;
+}
+.input-content{
+	margin: 0 auto;
+	width: 385px;
+	border-bottom: 1px solid;
+}
+.input_newsletter{
+	margin: 0 auto;
+	width: 342px;
+	font-size: 16px;
+	/*background: transparent;*/
+	border: 1px solid transparent;
+}
+.sendbtn{
+	background: transparent;
+	border: none;
+	padding: 0;
+}
+.sendbtn img{
+	width: 100%;
+}
+/*newsletter end*/
+
+
+/*lifestyle start*/
+
+.load{
+
+}
+.load button{
+	margin: 150px 0;
+	width: 165px;
+	height: 60px;
+	background-color: transparent;
+	border: 1px solid #626262;
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #626262;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.load button:hover{
+	background-color: #626262;
+	color: white;
+	border: 1px solid #626262;
+}
+/*lifestylw end*/
+
+
+
+/*footer start*/
+footer{
+	background: #f0f0f0;
+	padding: 45px 0;
+}
+.terms{
+	width: 40%;
+	float: left;
+}
+.socialbtn ul{
+	float: right;
+}
+.common ul{
+	margin: 0;
+	list-style: none;
+}
+
+.common ul li{
+	float: left;
+	padding: 0 10px;
+}
+.common ul li a{
+	display: inline-block;
+	text-decoration: none;
+	color: #000000;
+}
+.common ul li span{
+	color: black;
+}
+.socialbtn{
+	width: 40%;
+	float: right;
+}
+/*footer end*/
